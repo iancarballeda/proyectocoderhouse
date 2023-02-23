@@ -1,0 +1,420 @@
+/* globales */
+
+*{
+margin: 0%;
+padding: 0%;
+}
+html{font-size: 62,5;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* grid container principal */
+
+
+
+/* version desktop */
+body{background-color:rgb(188, 92, 223);}
+
+
+
+
+ul{
+    display: grid;
+    grid-template-columns:70px 70px 70px 70px;
+    column-gap: 70px;
+    justify-content: space space-around;
+    justify-content: center;
+    list-style: none;
+    text-decoration: rgb(0, 0, 0);
+
+}
+
+
+.tituloprincipal{display: flex;
+    justify-content: flex-start;
+color: blueviolet;
+}
+
+.tituloprincipal{
+    
+    padding-top: 20px;
+    padding-left: 500px;
+    size: 30px;
+    ;
+  
+}
+
+ h1,h2,h3{color: rgb(255, 103, 255);
+position: relative; margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+
+    
+
+main{
+   
+background-color:rgb(188, 92, 223);}
+
+footer{
+  
+background-color: rgb(255, 102, 255);}
+
+/* header */
+
+
+
+
+
+/* titulo principAL */
+.seccion_principal{
+    margin-bottom: 70px;
+    padding: 30px;
+    
+    
+   
+
+   
+}
+
+
+/* imagenes */
+#carouselExample{width: 100%;
+height: 100%;
+display: flex;
+}
+
+.carousel-item{
+    height: 65vh;
+    min-height: 300px;
+    background-position: center;
+    margin-top: 40px;
+    margin-left: 550px;
+
+}
+
+
+.imgcarrusel{width: 300px;
+height: 300px;
+justify-content: center;
+}
+
+
+    
+.articlecont{
+    display: flex;
+    columns: row;
+    position: relative;
+    justify-content:space-around;
+    height: 300px;
+    width: 850px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 50px;
+
+}
+
+
+
+h3{text-align: center; 
+    color: blueviolet;
+}
+
+.segunda_seccion--vinos{
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   grid-template-columns: 1fr 1fr;
+   border-right: 70px;
+  grid-template-areas:
+   "imagen section"
+   "imagen section";
+}
+
+.imagen_vino img{
+    width: 300px;
+    height: 300px;
+   border-left: 100px;
+   grid-area: imagen;
+}
+.sectionvinos{
+    grid-area: section;
+    font-size: 30px;
+}
+.inframe_mapa{
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    border-left: 30px;
+    border-bottom: 30px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+
+    
+    
+}
+.inframe_mapa h4{
+    text-align: end;
+    padding-left: 20px;
+
+   
+}
+
+
+.inframe_mapa p{
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    padding-top: 100px;
+    padding-right: 200px;
+    
+}
+
+/* footer */
+.footer_index
+{background-color: lightskyblue;
+    height: 100px;
+}
+footer p{
+   display: flex;
+   justify-content: flex-start;
+  
+}
+
+
+
+/* nuestraspastas html */
+
+.main_nuestraspastas{
+    width: 100%;
+    height: 100%;
+    
+}
+.div_containerpastas img{
+    width: 250px;
+    height: 250px;
+}
+
+ main.div_imgpastas1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/*  PRODUCTOS HTML*/
+
+.main_productos img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.footer_productos{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+/* vinos.html */
+
+
+
+.vino_henry{
+    display: flex;
+    padding: 20px;
+}
+.img_vinohenry{
+    width: 300px;
+    height: 300px;
+}
+.p_vinohenry{
+   padding: 20px;
+}
+.catentazapata_vino{
+   padding: 20px;
+   display: flex;
+  
+   
+}
+.img_vinocatenazapata{
+    width: 300px;
+    height: 300px;
+}
+
+.p_catenazapata{
+    padding: 20px;
+}
+
+.vino_yaco{
+    display: flex;
+    padding: 20px;
+}
+.img_vinoyaco{
+    width: 300px;
+    height: 300px;
+}
+
+.div-container_vinos{
+   height: 1100%;
+   width: 100%;
+padding: 0%;
+margin: 0%;
+}
+
+.footer_vinos{
+    background-color: aquamarine;
+display: flex;
+margin: 0%;
+padding: 0%;
+
+}
+
+
+.main_vinos{
+    width: 100%;
+    height: 100%;
+}
+.footer_container-vinos{
+   display: block;
+ 
+}
+
+
+
+/*   formulario de contacto */
+
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(188, 92, 223); 
+  }
+  
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color:rgb(180, 180, 223); 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: rgb(245, 251, 246); 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(188, 92, 223); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color:rgb(251, 251, 251); 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color:rgb(188, 92, 223); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(188, 92, 223); 
+    border-color:rgb(188, 92, 223); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: whitesmoke; 
+  }
+  
+  
+  span{
+    color:rgb(188, 92, 223); 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: rgb(15,18,20);  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: left; 
+    padding-bottom: 20px; 
+    color: rgb(15,18,20);
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color:rgb(15,18,20);   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color:rgb(15,18,20); 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: grey;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color:rgb(15,18,20);
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid rgb(15,18,20);
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid rgb(15,18,20);
+  }
+  footer{
+    background-color: aquamarine;
+  }
